@@ -5,7 +5,7 @@ FROM node:4
 
 MAINTAINER HBK Engineering, LLC <apps@hbkengineering.com>
 
-RUN apt-get update && apt-get install -y --no-install-recommends psmisc build-essential "libpng-dev" libtiff5 && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y --no-install-recommends psmisc build-essential "libpng-dev" libtiff5 libkml && rm -rf /var/lib/apt/lists/*
 
 # Install proj4 as a prerequisite for GDAL
 WORKDIR /etc/proj4
