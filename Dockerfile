@@ -1,4 +1,4 @@
-FROM node:4
+FROM node:8
 
 # This image provides a Node.JS environment you can use to run your Node.JS
 # applications.
